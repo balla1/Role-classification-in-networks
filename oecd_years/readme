@@ -1,0 +1,5 @@
+The data used in this project originates from OECD datasets, which provide comprehensive and reliable statistics on various aspects of global trade and economic relationships. These datasets were processed to ensure consistency and relevance for network analysis.
+
+The processing file handles data cleaning and the construction of the network, ensuring that the data is properly formatted and structured for analysis.
+The year_analysis file applies the role-based analytical model to a specific year, generating insights on the dynamics of that period.
+The results file consolidates the outcomes of the model's application across multiple years, enabling a longitudinal study of the network's evolution.
