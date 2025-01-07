@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 np.random.seed(42)
 # 
-base_path = "D:\\Mattia Ballardini\\TESI\\role_network_analysis\\oecd_paesi\\dati_oecd_per_anni\\"
+base_path = ""
 G95 = nx.read_weighted_edgelist(f'{base_path}1995_normalizzato.txt', create_using=nx.DiGraph)
 G95_c = nx.read_weighted_edgelist(f'{base_path}1995_closeness.txt', create_using=nx.DiGraph)
 G95_e = nx.read_weighted_edgelist(f'{base_path}1995_paesi_edgelist.txt', create_using=nx.DiGraph)
