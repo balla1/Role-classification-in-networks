@@ -7,7 +7,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 
-file_base = "D:\\Mattia Ballardini\\TESI\\role_network_analysis\\oecd_paesi\\dati_oecd_per_anni\\"
+file_base = ""
 # %%
 #liste per le coordinate dei plot finali
 
