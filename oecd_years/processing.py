@@ -132,13 +132,13 @@ file_base_output = ""
 file_new = "2020_paesi_edgelist.txt"
 
 # Load and process data
-df = carica_dati(file_input)
+df = load_data(file_input)
 print(df.head())
 
-df_flussi = trasforma_e_aggrega(df)
+df_flussi = transform_and_aggregate(df)
 print("After transform and aggregate:", df_flussi.head())
 
-df_aggrega = consolidare_cina_mexico(df_flussi)
+df_aggrega = consolidate_china_mexico(df_flussi)
 print("After consolidating China and Mexico:", df_aggrega.head())
 
-crea_files(df_aggrega, file_base_output)
+create_files(df_aggrega, file_base_output)
