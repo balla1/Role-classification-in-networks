@@ -125,3 +125,20 @@ def create_files(df, base_path):
     print("Example of normalized data:", normalized_edgelist.head())
     print("Example of closeness data:", closeness_edgelist.head())
     print("Example of edgelist:", edgelist.head())
+
+# Define file paths
+file_input = "2020.csv"
+file_base_output = ""
+file_new = "2020_paesi_edgelist.txt"
+
+# Load and process data
+df = carica_dati(file_input)
+print(df.head())
+
+df_flussi = trasforma_e_aggrega(df)
+print("After transform and aggregate:", df_flussi.head())
+
+df_aggrega = consolidare_cina_mexico(df_flussi)
+print("After consolidating China and Mexico:", df_aggrega.head())
+
+crea_files(df_aggrega, file_base_output)
