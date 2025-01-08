@@ -14,7 +14,7 @@ from sklearn.neighbors import NearestNeighbors
 
 np.random.seed(42)
 
-base_path = "D:\\Mattia Ballardini\\TESI\\role_network_analysis\\social\\txt\\"
+base_path = ""
 
 G22_09_02 = nx.read_weighted_edgelist(f'{base_path}2022-09-02_normalized_network.txt', create_using=nx.DiGraph)
 G22_09_02_c = nx.read_weighted_edgelist(f'{base_path}2022-09-02_inverted_network.txt', create_using=nx.DiGraph)
