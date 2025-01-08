@@ -2,9 +2,9 @@ import pandas as pd
 import os
 
 # Percorsi di base per i file di input e le sottocartelle di output
-cartella_csv = 'D:\\Mattia Ballardini\\TESI\\role_network_analysis\\social\\csv'
-cartella_txt = 'D:\\Mattia Ballardini\\TESI\\role_network_analysis\\social\\txt'
-cartella_grafici = 'D:\\Mattia Ballardini\\TESI\\role_network_analysis\\social\\grafici'
+cartella_csv = 'csv'
+cartella_txt = 'txt'
+cartella_grafici = 'grafici'
 
 # Crea le cartelle di destinazione se non esistono
 if not os.path.exists(cartella_txt):
