@@ -10,8 +10,8 @@ from joblib import Parallel, delayed
 import cProfile
 import plotly.graph_objects as go
 
-file_base = "D:\\Mattia Ballardini\\TESI\\role_network_analysis\\social\\txt\\"
-salvataggio = "D:\\Mattia Ballardini\\TESI\\role_network_analysis\\social\\results_3\\"
+file_base = ""
+salvataggio = ""
 
 # Specific parameters for each day
 m_values = {
