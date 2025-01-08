@@ -1,0 +1,8 @@
+The social media data used in this thesis were collected from Twitter, specifically focusing on interactions related to the 2022 Italian elections. The dataset includes a variety of interaction types such as retweets, replies, and original tweets, which were weighted differently to reflect varying levels of engagement.
+
+The analysis was conducted using two main scripts:
+
+processing.py: This script cleans data and creates the network.
+analysis_day.py: This script analyzes the network and applies the model to a single day, providing insights into daily role changes and dynamics.
+total_analysis.py: This script consolidates the results across the entire examined period, offering an overarching view of role evolution and patterns over time.
+These scripts ensure a detailed and temporal analysis of social media interactions, capturing both short-term and long-term dynamics.
